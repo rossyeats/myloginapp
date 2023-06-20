@@ -1,0 +1,126 @@
+
+body {
+    background-color: #03428F;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.newuser {
+    display: block;
+    margin: 50px auto;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #032b5d;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.newuser:hover {
+    background-color: #032b5d;
+}
+
+.newuser-form {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+}
+
+.newuser-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.newuser-form input[type="text"],
+.newuser-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newuser-form button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #032b5d;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.newuser-form button:hover {
+    background-color: #032b5d;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.login-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.login-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+.user-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .user-actions button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: #032b5d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .user-actions button:hover {
+   border: #03428F 1px solid;
+   border-radius: 5px;
+  }
+
+
